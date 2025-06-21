@@ -1,6 +1,8 @@
 import { memo } from 'react';
 import { log } from '../../log.js';
 
+// million-lint-disable no-unused-vars
+// million-ignore
 const IconButton = memo(function IconButton({ children, icon, ...props }) {
   log('<IconButton /> rendered', 2);
 
